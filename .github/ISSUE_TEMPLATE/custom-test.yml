@@ -4,7 +4,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        We no longer use this repo to file and track issues. Please use the new tool instead
+        We no longer use the repo to file and track issues. Please use the new tool.
+  - type: input
     attributes:
       label: Contact us with questions
       description: How can you get in touch if you need more info?

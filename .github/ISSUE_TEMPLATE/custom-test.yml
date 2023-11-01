@@ -1,14 +1,13 @@
 name: File issues in new tool
-description: Please open your issue over there
+description: Please open your docs issue [there](https://google.com).
 body:
   - type: markdown
     attributes:
       value: |
-        some information here
-  - type: input
+        We no longer use this repo to file and track issues. Please use the new tool instead
     attributes:
       label: Contact us with questions
       description: How can you get in touch if you need more info?
-      placeholder: Ping us
+      placeholder: Ping us in `#our-channel`
     validations:
       required: false

@@ -1,14 +1,13 @@
 name: File issues in new tool
-description: Please open your docs issue [there](https://google.com).
+description: Please open your issue on the new tool
 body:
   - type: markdown
     attributes:
       value: |
-        We no longer use the repo to file and track issues. Please use the new tool.
+        We no longer use the repo to file and track issues. Please use the new setup to file a issue instead.
   - type: input
     attributes:
-      label: Contact us with questions
-      description: How can you get in touch if you need more info?
-      placeholder: Ping us in `#our-channel`
+      label: Contact us with questions in `#our-channel`
+      description: Enter `/your-question` in `#our-channel` to open an issue with one of our team templates.
     validations:
       required: false

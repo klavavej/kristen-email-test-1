@@ -1,0 +1,14 @@
+name: File issues in new tool
+description: Please open your issue over there
+body:
+  - type: markdown
+    attributes:
+      value: |
+        some information here
+  - type: input
+    attributes:
+      label: Contact us with questions
+      description: How can you get in touch if you need more info?
+      placeholder: Ping us
+    validations:
+      required: false
